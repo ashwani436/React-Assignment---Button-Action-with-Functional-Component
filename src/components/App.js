@@ -8,7 +8,7 @@ function App() {
        {state ? (
        <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
        ):(
-       <button onClick={()=> setState(true)}>
+       <button id="click" onClick={()=> setState(true)}>
       Click me
     </button>
     )
